@@ -1,13 +1,13 @@
-package com.stalkiecat.stkccollector;
+package org.stalkiecat.collector;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StkcCollectorApplication {
+public class CollectorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StkcCollectorApplication.class, args);
+		SpringApplication.run(CollectorApplication.class, args);
 	}
 
 }
